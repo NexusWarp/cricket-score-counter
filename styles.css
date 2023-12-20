@@ -23,3 +23,20 @@ h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 8rem;
 }
+.btn{
+    margin-top: 50px;
+}
+.six{
+    background-color: aquamarine;
+    display: inline-flex;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.six h2{
+    font-size: 50px;
+    display: inline-block;
+    
+}
