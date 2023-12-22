@@ -47,8 +47,13 @@ h1{
 .six h2{
     font-size: 50px;
     display: inline-block;
-    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .six:hover{
     background-color: rgb(157, 158, 158);
+}
+.oversb h2{
+    display: inline-block;
+    font-size: 4rem;
+    
 }
