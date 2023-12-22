@@ -1,7 +1,11 @@
 let score = 0;
 let wickets = 0;
+let ballz = 0;
+let overz = 0;
+document.getElementById("overs").innerHTML=overz;
 document.getElementById("score").innerHTML=score;
 document.getElementById("wickets").innerHTML=wickets;
+document.getElementById("balls").innerHTML=ballz;
 document.getElementById("six").addEventListener("click", ()=>{
    updateScore(6);
 })
@@ -21,8 +25,18 @@ document.getElementById("four").addEventListener("click", ()=>{
     wickets ++;
     document.getElementById("wickets").innerHTML=wickets;
  })
+ document.getElementById("dot").addEventListener("click", ()=>{
+    updateScore(0);
+ })
 function updateScore(runs){
     score += runs;
+    ballz++;
+    document.getElementById("balls").innerHTML=ballz;
     document.getElementById("score").innerHTML=score;
-    console.log(score);
+    if(ballz>5){
+        ballz = 0;
+        document.getElementById("balls").innerHTML=ballz;
+        overz ++;
+        document.getElementById("overs").innerHTML=overz;
+    }
 }
