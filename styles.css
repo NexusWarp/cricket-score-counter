@@ -49,3 +49,6 @@ h1{
     display: inline-block;
     
 }
+.six:hover{
+    background-color: rgb(157, 158, 158);
+}
