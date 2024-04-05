@@ -1,1 +1,1 @@
-just a normal score counter.
+just a normal score counter..
