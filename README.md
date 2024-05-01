@@ -1,1 +1,1 @@
-just a normal score counter made in js
+just a normal score counter built in js
