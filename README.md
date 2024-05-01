@@ -1,1 +1,1 @@
-just a normal score counter built using javascript.
+A score counter app built using javascript..
